@@ -5,7 +5,12 @@
 }
 
 body {
+  width: 100vw;
+  height: 100vh;
   background-color: hsl(215, 46%, 89%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 main {
@@ -21,7 +26,6 @@ main {
   align-items: center;
 
   width: 25%;
-  margin: 10px auto;
   text-align: center;
 }
 
